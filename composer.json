@@ -1,0 +1,18 @@
+{
+  "name": "mariusfaber/search-replace",
+  "description": "A Shopware plugin to search and replace any text on the storefront.",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SearchReplace\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SearchReplace\\SearchReplace",
+    "label": {
+      "de-DE": "Suchen und Ersetzen",
+      "en-GB": "Search and Replace"
+    }
+  }
+}
